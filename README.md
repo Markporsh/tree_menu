@@ -18,7 +18,6 @@
 Добавлена функция-декоратор в utils.py для подсчета количства обращений к базе данных
 
 git clone <ссылка проекта>
-cd tree-menu
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
