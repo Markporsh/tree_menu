@@ -1,0 +1,11 @@
+{% load treemenu_tags %}
+
+
+<a href="{{ menu.url }}">{{ menu.name }}</a>
+
+{% for x in lst %}
+
+
+        <li><a href="{{ x.url }}">{{ x }}</a>
+
+{% endfor %}
