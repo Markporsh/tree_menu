@@ -33,6 +33,9 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+
 python manage.py createsuperuser (для доступа в админ-панель(http://127.0.0.1:8000/admin/) и возможности добавления меню или подменю)
+
 python manage.py migrate
+
 python manage.py runserver
